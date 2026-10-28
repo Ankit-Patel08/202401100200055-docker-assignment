@@ -1,0 +1,19 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+# Private keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+cosign.key
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
